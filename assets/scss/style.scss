@@ -1,43 +1,8 @@
-h1 {
-    text-align: center;
-  }
-  
-  h2 {
-    text-align: center;
-  }
-  
-  img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 1em; 
-  }
-  
-  section {
-    margin-top : 80px;
-  }
-  
-  p{
-    text-align: center;
-  }
-  
-  body{
-    background-color: rgb(231, 231, 231);
-  }
-  
-  li {
-    list-style: none;
-    text-align: center;
-  
-  }
-  
-  ul {
-    padding : 0;
-    flex-wrap : wrap;
-  
-  }
-  
-  header{
+@import '../../node_modules/normalize.scss/normalize.scss';
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
+
+
+header{
     display : flex;
     position: fixed;
     top : 0;
@@ -46,60 +11,115 @@ h1 {
     background-color: rgb(158, 158, 158);
     justify-content: center;
   }
-  
-  .btn {
-    position : absolute ;
-    max-height:80%;
-    color : white;
-    top : 1em;
-    right : 1em;
-  }
-  
-  .col1{
-    justify-content: center;
-    margin-top : 1em;
-    margin-left : 1em;
-    padding-right : 1em;
-    padding-left : 1em;
-    border : 3px solid rgba(0, 0, 0, 0.603);
-  }
-  
-  .flexrow {
-    display:flex;
-    display: row;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  
-  .container {
-  display : block;
-  height: 100%;
-  background-color: rgb(223, 223, 223);
-  margin-left : 10em;
-  margin-right : 10em;
-  }
-  
-  #btn {
-    max-width: 15%;
-    text-align: left;
-    visibility : visible;
-    background-color: rgba(0, 0, 0, 0.445);
-  
-  
-  }
-  
-  #btn2{
-    max-width: 15%;
-    text-align: left;
-    visibility : hidden;
+
+body{
     background-color: rgb(231, 231, 231);
+    
+    
+    h1 {
+        text-align: center;
+    }
+      
+    h2 {
+        text-align: center;
+    }
+      
+    img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 1em; 
+    }
+
+    p {
+        text-align: center;
+      }
+    
+      
+    ul {
+        padding : 0;
+        flex-wrap : wrap;
+        
+        li {
+            list-style: none;
+            text-align: center;
+          
+          }
+    }
+
+    section {
+        margin-top : 80px;
+      }
+
+    .btn {
+        position : absolute ;
+        max-height:80%;
+        color : white;
+        top : 1em;
+        right : 1em;
+    }
+      
+    .col1{
+        justify-content: center;
+        margin-top : 1em;
+        margin-left : 1em;
+        padding-right : 1em;
+        padding-left : 1em;
+        border : 3px solid rgba(0, 0, 0, 0.603);
+    }
+      
+    .flexrow {
+        display:flex;
+        display: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+      
+    .container {
+      display : block;
+      height: 100%;
+      background-color: rgb(223, 223, 223);
+      margin-left : 10em;
+      margin-right : 10em;
+    }
+      
+    #btn {
+        max-width: 15%;
+        text-align: left;
+        visibility : visible;
+        background-color: rgba(0, 0, 0, 0.445);
+      
+      
+    }
+      
+    #btn2{
+        max-width: 15%;
+        text-align: left;
+        visibility : hidden;
+        background-color: rgb(231, 231, 231);
+      
+    }
+      
+    #nom {
+        font-weight: bold;
+    }
+      
+    #img {
+        max-width: 50%;
+    }
+
+}
+
   
-  }
   
-  #nom {
-    font-weight: bold;
-  }
   
-  #img {
-    max-width: 50%;
-  }
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
