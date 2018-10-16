@@ -9008,72 +9008,33 @@ h3 {
     border-color: #dee2e6;
   }
 }
-header {
-  display: flex;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  background-color: #9e9e9e;
-  justify-content: center;
-}
-
 body {
   background-color: #e7e7e7;
 }
-body h1 {
-  text-align: center;
+body #card-platypus {
+  margin: 20px auto;
+  /* Added */
+  float: none;
+  /* Added */
+  margin-bottom: 10px;
+  /* Added */
 }
-body h2 {
-  text-align: center;
-}
-body img {
+body .navbar {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 1em;
 }
-body p {
+body h1, body h4 {
+  display: block;
   text-align: center;
 }
-body ul {
-  padding: 0;
-  flex-wrap: wrap;
+body .card {
+  justify-content: center;
 }
-body ul li {
-  list-style: none;
-  text-align: center;
-}
-body section {
-  margin-top: 80px;
-}
-body .btn {
+body .btn1 {
   position: absolute;
   max-height: 80%;
   color: white;
-  top: 1em;
+  top: 10px;
   right: 1em;
-}
-body .col1 {
-  justify-content: center;
-  margin-top: 1em;
-  margin-left: 1em;
-  padding-right: 1em;
-  padding-left: 1em;
-  border: 3px solid rgba(0, 0, 0, 0.603);
-}
-body .flexrow {
-  display: flex;
-  display: row;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-body .container {
-  display: block;
-  height: 100%;
-  background-color: #dfdfdf;
-  margin-left: 10em;
-  margin-right: 10em;
 }
 body #btn {
   max-width: 15%;
@@ -9089,9 +9050,6 @@ body #btn2 {
 }
 body #nom {
   font-weight: bold;
-}
-body #img {
-  max-width: 50%;
 }
 
 /*# sourceMappingURL=style.css.map */

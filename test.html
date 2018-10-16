@@ -4,13 +4,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
     <script type="text/javascript" src="assets/js/script.js"></script>    
     <title>Portfolio</title>
 </head>
 <body>
-
     <nav class="navbar bg-light sticky-top">
-        <h1>Portfolio</h1>
+        <h1 id ="titre">Portfolio</h1>
+        <input type="image" class ="btn1" src="assets/src/lune.png " alt="lune" id="btn"value="button" onclick="setColor();">
+        <input type="image" class ="btn1" src="assets/src/soleil.png " alt="lune" id="btn2"value="button" onclick="setColor2();">
+        
     </nav>
     <div class="container">    
         <div class="row">
@@ -18,40 +21,37 @@
                 <div class="card" style="width: 18rem;" id="card-platypus">
                     <img class="card-img-top" src="assets/src/platypus.jpg" alt="platypus">
                     <div class="card-body">
-                        <h4 class="card-title">Girard Yohan</h4>
+                        <h4 class="card-title">Yohan Girard</h4>
                     </div>
                 </div>        
             </div>
         </div>
-
         <div class="row justify-content-center">
                 <div class="col">
                     <div class="card" style="width: 18rem;">
                         <div class="card-body">
-                            <h4 class="card-title">Girard Yohan</h4>
+                            <h4 class="card-title">Mes hobbies</h4>
                         </div>
                     </div>
                  </div>        
                 <div class="col">
                     <div class="card" style="width: 18rem;">
                         <div class="card-body">
-                            <h4 class="card-title">Girard Yohan</h4>
+                            <h4 class="card-title">Mes expériences professionelles</h4>
                             <p class="card-text">Je suis yohan</p>
                         </div>
                     </div>        
                 </div>
+                <div class="col">
+                        <div class="card" style="width: 18rem;">
+                            <div class="card-body">
+                                <h4 class="card-title">Girard Yohan</h4>
+                                <p class="card-text">Je suis yohan</p>
+                            </div>
+                        </div>        
+                    </div>
+            </div>
         </div>
-                <div class="row">
-                    <div class="col-sm">
-                      One of three columns
-                    </div>
-                    <div class="col-sm">
-                      One of three columns
-                    </div>
-                    <div class="col-sm">
-                      One of three columns
-                    </div>
-                  </div>
-        </div>
+        <a name="boutton" id="btn3" class="btn btn-primary" href="#" role="button" onclick="timeout()">boutton</a>
 </body>
 </html>
