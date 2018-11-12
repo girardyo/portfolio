@@ -68,7 +68,7 @@ body{
     }
 
     #btn:hover {
-        background-color:rgba(35, 167, 79, 0.445);
+        background-color:rgba(0, 0, 0, 0.733);
         ;
     }
 
@@ -85,7 +85,7 @@ body{
 
     li {
         display: flex;
-        margin-right : 2em;   
+        margin : 2px;
     }
 
     #img {
@@ -93,10 +93,12 @@ body{
     }
     
     .column {
-        columns : 2;
+        columns : 3;
     }
 
 }
+
+
 
   
   

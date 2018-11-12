@@ -444,7 +444,7 @@ body .button:hover {
   background-color: rgba(0, 0, 0, 0.733);
 }
 body #btn:hover {
-  background-color: rgba(35, 167, 79, 0.445);
+  background-color: rgba(0, 0, 0, 0.733);
 }
 body #btn2:hover {
   background-color: white;
@@ -456,13 +456,13 @@ body h2, body h3, body ul {
 }
 body li {
   display: flex;
-  margin-right: 2em;
+  margin: 2px;
 }
 body #img {
   margin: auto;
 }
 body .column {
-  columns: 2;
+  columns: 3;
 }
 
 /*# sourceMappingURL=style.css.map */
