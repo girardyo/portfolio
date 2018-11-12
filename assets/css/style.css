@@ -449,7 +449,7 @@ body #btn:hover {
 body #btn2:hover {
   background-color: white;
 }
-body h2, body ul {
+body h2, body h3, body ul {
   display: flex;
   align-items: center;
   justify-content: center;

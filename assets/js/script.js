@@ -105,3 +105,27 @@ $(document).ready(function() {
 
 });*/
 
+function Get(yourUrl){
+    var Httpreq = new XMLHttpRequest(); // a new request
+    Httpreq.open("GET",yourUrl,false);
+    Httpreq.send(null);
+    return Httpreq.responseText;          
+}
+var json_obj = JSON.parse(Get('https://api.apixu.com/v1/current.json?key=b7ebce311d55424fbf890438181211&q=Grenoble'));
+
+var h3 = document.getElementById('h3');
+h3.innerHTML = "Température à Grenoble : "+json_obj.current.temp_c+"°";
+
+
+var d = new Date();
+var h = d.getHours();
+console.log(d);
+console.log(h);
+if (h>17){
+    document.body.style.backgroundColor = "#fcfcfc";
+    nuitprogressif ()
+}
+else{
+    document.body.style.backgroundColor = "#4c4c4c";
+    jourprogressif ()
+}
