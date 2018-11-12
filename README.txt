@@ -1,2 +1,6 @@
-Portfolio utilisant l'heure local de l'utilisateur pour changer la couleur du fond d'écran.
-Utilise une API pour montrer la température.
+Portfolio utilisant l'heure local de l'utilisateur pour changer la couleur du fond d'Ã©cran.
+Utilise une API pour montrer la tempÃ©rature.
+
+Installation : 
+
+-Normalize.scss
