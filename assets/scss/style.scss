@@ -1,28 +1,19 @@
 @import '../../node_modules/normalize.scss/normalize.scss';
-@import '../../node_modules/bootstrap/scss/bootstrap.scss';
+
 
 
 body{
     background-color: rgb(231, 231, 231);
     
-    #card-platypus{
-        margin: 20px auto; /* Added */
-        float: none; /* Added */
-        margin-bottom: 10px; /* Added */ 
-    }
+    
 
-    .navbar {
-        display: block;
-    }
 
     h1, h4 {
         display: block;
         text-align: center;
     }
 
-    .card {
-        justify-content: center;
-    }
+   
 
     .btn1 {
         position : absolute ;
@@ -30,6 +21,8 @@ body{
         color : white;
         top : 10px;
         right : 1em;
+        border-radius: 5%;
+
     }
       
 
@@ -55,7 +48,53 @@ body{
         font-weight: bold;
     }
       
+    .button {
+        background-color: rgba(0, 0, 0, 0.445);
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        position : absolute ;
+        top : 10px;
+        left : 1em;
+        border-radius: 5%;     
+        font-size : 16px;
+        border-radius: 5%;
+    }
 
+    .button:hover  {
+        background-color: rgba(0, 0, 0, 0.733);
+    }
+
+    #btn:hover {
+        background-color:rgba(35, 167, 79, 0.445);
+        ;
+    }
+
+    #btn2:hover{
+        background-color: rgb(255, 255, 255);
+
+    }
+
+    h2, ul {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    li {
+        display: flex;
+        margin-right : 2em;   
+    }
+
+    #img {
+        margin : auto;
+    }
+    
+    .column {
+        columns : 2;
+    }
 
 }
 
