@@ -4,3 +4,4 @@ Utilise une API pour montrer la température.
 Installation : 
 
 -Normalize.scss
+-npm
